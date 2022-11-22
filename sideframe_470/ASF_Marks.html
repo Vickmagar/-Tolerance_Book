@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<link rel="stylesheet" href="../estilos.css">
+	<title>Menu de Navegacion estilo Amazon</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Amsted Rail <span>Casting</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="./general_470.html">Back</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Back</button>
+					<h3 class="subtitulo">Categorias</h3>
+					<a href="#" data-categoria="Defect">Defect <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Nomenclature">Nomenclature <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Marking">Marking <i class="fas fa-angle-right"></i></a>
+					<a href="../index.html" data-categoria="Sales Drawing">Sales Drawing</a>
+					<a href="#" data-categoria="Super Number">Super Number <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Scrata Levels">Scrata Levels <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Tolerance">Tolerance <i class="fas fa-angle-right"></i></a>
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Defect">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo"></h3>
+							<a href="#">Negative Surfaces </a>
+							<a href="#">Gates & Risers</a>
+							<a href="#">Fins</a>
+							<a href="#">Parting Lines or Core Joint</a>
+							<a href="#">Gauges and notch type discontinuities</a>
+							<a href="#">Pin Holes</a>
+							<a href="#">Whell Base</a>
+							<a href="#">Welding</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Nomenclature">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Nomenclature</h3>
+							<a href="#">ASF Espec</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Marking">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Marking</h3>
+							<a href="">ASF Marks</a>
+							<a href="#">AAR Marks</a>
+							<a href="#">Marks Especifications</a>
+						</div>
+					</div>
+					<div class="subcategoria" data-categoria="Super Number">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Super Number</h3>
+							<a href="#">Accesories List</a>
+							<a href="#">Colum Werar Plate Application</a>
+						</div>
+					</div>
+					<div class="subcategoria" data-categoria="Scrata Levels">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Scrata Levels</h3>
+							<a href="#">Reference Document</a>
+							<a href="#">Colum Wear Plate Application</a>
+						</div>
+					</div>
+					<div class="subcategoria" data-categoria="Tolerance">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Tolerance</h3>
+							<a href="#">Tickness</a>
+							<a href="#">Dimension Lineal</a>
+							<a href="#">Detail Drawing</a>
+							<a href="#">Tolerance Drawing</a>
+							<a href="#">Gauge Application</a>
+							<a href="#">ASF Spec-71</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main class="contenedor">
+
+		
+		<article class="modelo3d">
+			<model-viewer class="fig1" camera-controls touch-action="pan-y" src="./assets3d/470A-ASF-MARKS.glb" 
+			alt="A 3d model coupler" auto-rotate min-camera-orbit="auto 0deg auto" 
+			max-camera-orbit="auto 180deg auto" exposure="0.34"> 
+			</model-viewer>
+		</article>
+
+		</article>
+		<article class="modelo__text">
+			<p>ASF_MARKS</p>
+		</article>
+	</main>
+	<script src="/sideframe_470/script.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="../main.js"></script>
+</body>
+</html>

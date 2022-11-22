@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<title>Menu de Navegacion estilo Amazon</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Amsted Rail <span>Casting</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				<a href="#">Home</a>
+				<a href="#">Finishing Standar</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Back</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="#" data-categoria="Articulate Connector">Articulate Connector <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Bolster">Bolster <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Coupler">Coupler <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Knuckle">Knuckle <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Side Frame">Side Frame <i class="fas fa-angle-right"></i></a>
+
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Articulate Connector">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Articulate Connector</h3>
+							<a href="#">3798D</a>
+							<a href="#">3865C</a>
+							<a href="#">3799D3</a>
+						</div>
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/Articulate_600px.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Bolster">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Bolster</h3>
+							<a href="#">473B</a>
+							<a href="#">488A</a>
+							<a href="#">516A</a>
+							<a href="#">529</a>
+							<a href="#">453</a>
+							<a href="#">495</a>
+						</div>
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/Bolster_600px.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Coupler">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Coupler</h3>
+							<a href="#">EF511CE</a>
+							<a href="#">SE60EE</a>
+							<a href="#">E69</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/Coupler_600px.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Knuckle">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Knuckle</h3>
+							<a href="#">E50BEV</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/Knuckle_600px.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Side Frame">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Side Frame</h3>
+							<a href="./sideframe_470/General_470.html">470A</a>
+							<a href="#">470P</a>
+							<a href="#">512A</a>
+							<a href="#">528E</a>
+							<a href="#">982</a>
+							<a href="#">52A</a>
+						</div>
+
+						<div class="banner-subcategoria">
+							<a href="#">
+								<img src="./img/Sideframe_600px.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main class="contenedor">
+
+		<article class="modelo3d">
+			<model-viewer class="fig1" camera-controls touch-action="pan-y" src="assets/Truck2.glb" 
+			alt="A 3d model coupler" auto-rotate min-camera-orbit="auto 0deg auto" 
+			max-camera-orbit="auto 180deg auto" exposure="0.34"> 
+			</model-viewer>
+		</article>
+		<article class="modelo__text">
+			<p>All the analyses proposed in this portal are real cases, which have been presented with customers.</p>
+		</article>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

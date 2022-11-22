@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<link rel="stylesheet" href="../estilos.css">
+	<title>Menu de Navegacion estilo Amazon</title>
+</head>
+<body>
+	<nav class="menu" id="menu">
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Amsted Rail <span>Casting</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+
+			<div class="enlaces">
+				
+				<a href="./General_470.html">Back</a>
+				
+				
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Back</button>
+					<h3 class="subtitulo">Categorias</h3>
+					<a href="#" data-categoria="Defect">Defect <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Nomenclature">Nomenclature <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Marking">Marking <i class="fas fa-angle-right"></i></a>
+					<a href="/sideframe_470/470A_Sales_Drawing.html" data-categoria="Sales Drawing">Sales Drawing</a>
+					<a href="#" data-categoria="Super Number">Super Number <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Scrata Levels">Scrata Levels <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="Tolerance">Tolerance <i class="fas fa-angle-right"></i></a>
+					<a href="/sideframe_470/470A_Finishing_Standar.html" data-categoria="Finishing Standar">Finishing Standar</a>
+				</div>
+
+				<div class="contenedor-subcategorias">
+					<div class="subcategoria " data-categoria="Defect">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo"></h3>
+							<a href="/sideframe_470/470A_Negative_Surface.html">Negative Surfaces </a>
+							<a href="/sideframe_470/470A_gates_Risers.html">Gates & Risers</a>
+							<a href="/sideframe_470/470A_Fins.html">Fins</a>
+							<a href="/sideframe_470/470A_Parting_Cores.html">Parting Lines or Core Joint</a>
+							<a href="/sideframe_470/470A_Gouges.html">Gouges and notch type discontinuities</a>
+							<a href="/sideframe_470/470A_Pin_Holes.html">Pin Holes</a>
+							<a href="/sideframe_470/470A_Whell_Base.html">Whell Base</a>
+							<a href="/sideframe_470/470A_Welding.html">Welding</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Nomenclature">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Nomenclature</h3>
+							<a href="/sideframe_470/470A_Nomenclature.html">ASF Espec</a>
+						</div>
+					</div>
+
+					<div class="subcategoria" data-categoria="Marking">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Marking</h3>
+							<a href="/sideframe_470/470A_ASF_Marks.html">ASF Marks</a>
+							<a href="/sideframe_470/470A_AAR_Marks.html">AAR Marks</a>
+						</div>
+					</div>
+					<div class="subcategoria" data-categoria="Super Number">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Super Number</h3>
+							<a href="/sideframe_470/470A_Accesories List.html">Accesories List & Wear Plate Application</a>
+						</div>
+					</div>
+					<div class="subcategoria" data-categoria="Scrata Levels">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Scrata Levels</h3>
+							<a href="/sideframe_470/470A_Reference_Document.html">Reference Document</a>
+						</div>
+					</div>
+					<div class="subcategoria" data-categoria="Tolerance">
+						<div class="enlaces-subcategoria">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Back</button>
+							<h3 class="subtitulo">Tolerance</h3>
+							<a href="/sideframe_470/470A_Tickness.html">Tickness</a>
+							<a href="/sideframe_470/470A_Dimension_Lineal.html">Dimension Lineal</a>
+							<a href="/sideframe_470/470A_Detail_Drawing.html">Detail Drawing</a>
+							<a href="/sideframe_470/470A_Tolerance_Drawing.html">Tolerance Drawing</a>
+							<a href="/sideframe_470/470A_Gauge_Application.html">Gauge Application</a>
+							<a href="/sideframe_470/470A_ASF_Spec.html">ASF Spec-71</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<main class="contenedor">
+
+		<article class="modelo3d">
+			<model-viewer class="fig1" src="../assets/470a-NOMENCLATURE.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 180deg auto">
+				<button class="Hotspot" slot="hotspot-1" data-position="22.630067691722882m 20.548818759023813m -1.4120221655755802m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">1</div>
+				</button><button class="Hotspot" slot="hotspot-2" data-position="12.269405334313976m 20.534107342268307m -1.4120221675521822m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">2</div>
+				</button><button class="Hotspot" slot="hotspot-3" data-position="4.013552606384289m 20.542345418170356m -1.4120221664453236m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">10</div>
+				</button><button class="Hotspot" slot="hotspot-4" data-position="32.95087202887838m 20.53441923706739m -1.412022167510276m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">2</div>
+				</button><button class="Hotspot" slot="hotspot-5" data-position="41.0982838007853m 20.537997779848478m -1.4120221670294528m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">10</div>
+				</button><button class="Hotspot" slot="hotspot-6" data-position="13.02037701299492m 15.770142632989568m -2.2488603330681043m" data-normal="-0.03249146075072402m -2.734544473156663e-7m 0.9994720131040236m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">3</div>
+				</button><button class="Hotspot" slot="hotspot-7" data-position="14.052734429542475m 12.688130554896938m -1.4120232217286866m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">9</div>
+				</button><button class="Hotspot" slot="hotspot-8" data-position="17.450596515896184m 13.229802159342011m -1.978382007604134m" data-normal="-0.409712757361882m -0.0016723351638555824m 0.9122130561168392m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">8</div>
+				</button><button class="Hotspot" slot="hotspot-9" data-position="12.61193191761456m 10.274182024917726m -2.262139212188414m" data-normal="-0.03249177854410849m 8.09372841735674e-8m 0.9994720027729811m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">6</div>
+				</button><button class="Hotspot" slot="hotspot-10" data-position="13.177757255372752m 1.3902220806235537m -1.4120247397028027m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">5</div>
+				</button><button class="Hotspot" slot="hotspot-11" data-position="22.521625859051884m 1.3782977470490483m -1.4120247413049416m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">4</div>
+				</button><button class="Hotspot" slot="hotspot-12" data-position="32.19144543905089m 1.37667741454069m -1.4120247415226481m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">5</div>
+				</button><button class="Hotspot" slot="hotspot-13" data-position="26.52418990921654m 4.71459071060708m -1.9401599498036024m" data-normal="0.1593441214304997m -1.3264217147371365e-7m 0.9872231009075532m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">13</div>
+				</button><button class="Hotspot" slot="hotspot-14" data-position="18.194785541423133m 2.8447564303011648m -4.112024261121333m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">22</div>
+				</button><button class="Hotspot" slot="hotspot-15" data-position="36.445209200375444m 11.136279045229957m -3.130773371403401m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">14</div>
+				</button><button class="Hotspot" slot="hotspot-16" data-position="36.652667442362905m 9.512085848610464m -3.130773589628149m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">16</div>
+				</button><button class="Hotspot" slot="hotspot-17" data-position="37.32984386915015m 8.18999985326845m -4.1174567867374074m" data-normal="0m 0.9999999999999911m 1.343588610839583e-7m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">15</div>
+				</button><button class="Hotspot" slot="hotspot-18" data-position="43.46533264994117m 11.539494604952678m -3.068273319367101m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">17</div>
+				</button><button class="Hotspot" slot="hotspot-19" data-position="28.434172470599734m 3.9097019631465586m -3.5971807433249525m" data-normal="0.29081775153643463m -0.9264137141291565m 0.239128972867602m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">21</div>
+				</button><button class="Hotspot" slot="hotspot-21" data-position="30.808066140385375m 9.022860447547206m -7.218138623411424m" data-normal="0.3715155909983682m 0.09267076868759093m -0.9237901787072562m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">20</div>
+				</button><button class="Hotspot" slot="hotspot-22" data-position="23.065845910361976m 16.624999997230223m -4.214679683287546m" data-normal="0m 0.9999999999999911m 1.343588610839583e-7m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">18</div>
+				</button><button class="Hotspot" slot="hotspot-23" data-position="3.464345049533583m 16.978720635115504m -3.4434935128794635m" data-normal="-0.36826732903216136m 0.8494536787207545m -0.3778989574943218m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">19</div>
+				</button><button class="Hotspot" slot="hotspot-24" data-position="49.36716073208852m 10.48603616209935m -5.8374792077758055m" data-normal="0.005165876976183235m -1.3435706830257245e-7m 0.9999866567685036m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">7</div>
+				</button><button class="Hotspot" slot="hotspot-25" data-position="49.36903509471328m 6.651964910520426m -5.83748940577318m" data-normal="0.005165876976183235m -1.3435706830257245e-7m 0.9999866567685036m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">12</div>
+				</button><button class="Hotspot" slot="hotspot-26" data-position="53.71139687558714m 13.285870193630583m -5.919946652687477m" data-normal="0.005171545202987016m -0.00002355598753268628m 0.9999866271932485m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">26</div>
+				</button><button class="Hotspot" slot="hotspot-27" data-position="53.67275255821026m 8.24598403216434m -5.919747485596895m" data-normal="0.0051712888379222945m -1.3435706454428237e-7m 0.9999866287964738m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">26</div>
+				</button><button class="Hotspot" slot="hotspot-28" data-position="51.59182964873281m 4.659799256060045m -2.356298750256929m" data-normal="0m 0.9999999999999911m 1.343588610839583e-7m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">27</div>
+				</button><button class="Hotspot" slot="hotspot-29" data-position="57.662994267864775m 5.250746180668003m -2.315335610369115m" data-normal="0.005173933702015034m -1.3435706270611385e-7m 0.999986615115437m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">28</div>
+				</button><button class="Hotspot" slot="hotspot-34" data-position="53.645106998006575m 3.54899771805004m -1.4820460567217246m" data-normal="0.005170945638958178m -1.3435706478273524e-7m 0.9999866305712197m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">29</div>
+				</button><button class="Hotspot" slot="hotspot-39" data-position="55.7759362076m 12.1646060529388m -5.940886205776812m" data-normal="-0.9999864996196186m -6.98156600775154e-10m 0.005196208088864962m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">11</div>
+				</button><button class="Hotspot" slot="hotspot-40" data-position="54.31414402428353m 14.146506724356424m -1.4855041654246248m" data-normal="0.0051715397786451745m -1.9934015655170739e-7m 0.9999866274987272m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">23</div>
+				</button><button class="Hotspot" slot="hotspot-42" data-position="18.110899621072257m 11.81891030787093m -1.6865646580868257m" data-normal="0.38271160159091283m -1.241298339900777e-7m 0.923867863932772m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">11</div>
+				</button><button class="Hotspot" slot="hotspot-44" data-position="27.139478173140148m 11.804626660400773m -1.6774245195649993m" data-normal="-0.38271160159091283m -1.241298339900777e-7m 0.923867863932772m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">11</div>
+				</button><button class="Hotspot" slot="hotspot-45" data-position="53.80137098626924m 12.072930508529614m -6.096159056520887m" data-normal="-0.8931043274803372m 0.003388000601038923m 0.44983683896255366m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">24</div>
+				</button><button class="Hotspot" slot="hotspot-46" data-position="53.83161661384455m 9.42191459570106m -6.045570515351184m" data-normal="0.005172217874744777m -5.564812565688959e-7m 0.9999866239915146m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">24</div>
+				</button><button class="Hotspot" slot="hotspot-47" data-position="54.964763249086914m 10.738339661362412m -6.051430210383671m" data-normal="0.005171283966204109m -1.3435706454766735e-7m 0.9999866288216673m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">25</div>
+				</button>
+				<div class="progress-bar hide" slot="progress-bar">
+					<div class="update-bar"></div>
+				</div>
+			  </model-viewer>  
+		   
+		</article>
+		<article class="modelo__text">
+			<p>Nomenclature</p>
+		</article>
+
+		<article class="nomenclature__text">
+			<div class="numeration"><p>1. Top Member Center</p></div>
+			<div class="numeration"><p>2. Compression Members</p></div>
+			<div class="numeration"><p>3. Compression Memeber Flanges</p></div>
+			<div class="numeration"><p>4. Bottom Center Member</p></div>
+			<div class="numeration"><p>5. Diagonal Tension Member</p></div>
+			<div class="numeration"><p>6. Tension Member Flanges</p></div>
+			<div class="numeration"><p>7. Colum</p></div>
+			<div class="numeration"><p>8. Column Flanges</p></div>
+			<div class="numeration"><p>9. Window</p></div>
+			<div class="numeration"><p>10. Top Ends</p></div>
+			<div class="numeration"><p>11. Colum Sides</p></div>
+			<div class="numeration"><P>12. Lower Bolser Opening</P></div>
+			<div class="numeration"><P>13. Spring Seat Ribs</P></div>
+			<div class="numeration"><P>14. Journal Bracket Flanges</P></div>
+			<div class="numeration"><P>15. Retainer Key Slot</P></div>
+			<div class="numeration"><P>16. Inner Pedestal Legs</P></div>
+			<div class="numeration"><P>17. Outer Pedestal Legs</P></div>
+			<div class="numeration"><P>18. Parting Line-Top Member</P></div>
+			<div class="numeration"><P>19. Top End Openings</P></div>
+			<div class="numeration"><P>20. Unit Brackets</P></div>
+			<div class="numeration"><P>21. Bottom Center Drain Holes</P></div>
+			<div class="numeration"><p>22. Parting Line-Bottom Member</p></div>
+			<div class="numeration"><p>23. Top Member Bridge</p></div>
+			<div class="numeration"><P>24. Wear Plate Retainer Holes</P></div>
+			<div class="numeration"><P>25. Column Face</P></div>
+			<div class="numeration"><P>26. Friction Plate Retainer Beads</P></div>
+			<div class="numeration"><P>27. Spring Seat</P></div>
+			<div class="numeration"><P>28. Spring Seat Boss or Lugs</P></div>
+			<div class="numeration"><P>29. Bottom Center Rib</P></div>
+			
+
+		</article>
+	</main>
+	<script src="/sideframe_470/assets_nomenclature/script.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="../main.js"></script>
+</body>
+</html>
+

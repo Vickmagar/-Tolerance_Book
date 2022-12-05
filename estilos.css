@@ -881,7 +881,7 @@ main article {
 	}
 
 	.modelo3d{
-		width: 33%;
+		width: 26%;
 		height: 550px;
 		*background-color: #E47911;
 	}
@@ -899,7 +899,7 @@ main article {
 		font-weight: 700;
 		text-align: center;
 		font-size: 1.0em;
-		width: 32%;
+		width: 26%;
 		*background-color: #E47911;
 		position: relative;
 		top: -55px;

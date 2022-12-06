@@ -314,8 +314,19 @@ main article {
     font-size: 3em;
     width: 86%;
 	margin-top: -40px;
+}
+
+.modelo__text2{
+	font-family: Arial, sans-serif;
+	height: 180px;
+    font-weight: bold;
+    text-align:justify;
+    font-size: 3em;
+    width: 86%;
+	margin-top: -40px;
 	
 }
+
 
 .Hotspot {
 	background: white;
@@ -436,16 +447,15 @@ main article {
 
 .pic__finish {
 	width: 80%;
-	
+	height: 850px;
 }
  
-.pic__finish .pic__finish-Std {
+.pic__finish-Std {
 	margin: 0 auto;
 	display: block;
 	padding: 5px 0px ;
 	width: 100%;
-	
-
+	border: 1.5px solid #111;
  }
 
 
@@ -486,9 +496,17 @@ main article {
 		font-weight: 700;
 		text-align: center;
 		font-size: 2em;
-		width: 70%;
-		
+		width: 70%;	
 	}
+	.modelo__text2{
+		font-family: Arial, sans-serif;
+		height: 200px;
+		font-weight: 700;
+		text-align: justify;
+		font-size: 2em;
+		width: 70%;	
+	}
+
 	.title1{
 		width: 70%;
 	
@@ -501,14 +519,14 @@ main article {
 		font-size: 2em;
 		width: 100%;
 		margin: 0 auto;
-		
 		padding: 0px 0px;
 	}
 
 	/* ------------------------- */
-/* Pagina de Nomenclaturas */
-/* ------------------------- */
-.nomenclature__text{
+	/* Pagina de Nomenclaturas */
+	/* ------------------------- */
+
+	.nomenclature__text{
 	background-color: #111;	
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -528,11 +546,11 @@ main article {
 	text-align: left;
   }
 
-  .pic__finish {
-	width: 60%;
+	.pic__finish {
+		width: 60%;
+		height: 650px;
+	}
 	
-}
- 
   
 }
 
@@ -570,7 +588,15 @@ main article {
 		text-align: center;
 		font-size: 2em;
 		width: 60%;
-		
+	}
+
+	.modelo__text2{
+		font-family: Arial, sans-serif;
+		height: 200px;
+		font-weight: 700;
+		text-align: justify;
+		font-size: 2em;
+		width: 60%;	
 	}
 
 	.title1{
@@ -589,10 +615,10 @@ main article {
 		padding: 0px 0px;
 	}
 
-		/* ------------------------- */
-/* Pagina de Nomenclaturas */
-/* ------------------------- */
-.nomenclature__text{
+	/* ------------------------- */
+	/* Pagina de Nomenclaturas */
+	/* ------------------------- */
+	.nomenclature__text{
 	background-color: #111;	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -625,16 +651,14 @@ main article {
 	transition: opacity 0.3s;
 	width: 2px;
   }
-
   .pic__finish {
-	width: 40%;
+	width: 60%;
+	height: 650px;
+  }
+
 	
 }
  
-
-
-}
-
 @media screen and (max-width: 800px) {
 	.menu .contenedor {
 		width: 90%;
@@ -769,8 +793,16 @@ main article {
 		text-align: center;
 		font-size: 1.5em;
 		width: 45%;
-		
 	}
+	.modelo__text2{
+		font-family: Arial, sans-serif;
+		height: 200px;
+		font-weight: 700;
+		text-align: justify;
+		font-size: 2em;
+		width: 45%;	
+	}
+
 
 	.title1{
 		width: 45%;
@@ -786,9 +818,9 @@ main article {
 		padding: 0px 0px;
 	}
 
-/* ------------------------- */
-/* Pagina de Nomenclaturas */
-/* ------------------------- */
+	/* ------------------------- */
+	/* Pagina de Nomenclaturas */
+	/* ------------------------- */
 
 	.nomenclature__text{
 		background-color: #111;	
@@ -825,7 +857,10 @@ main article {
 		width: 2px;
 	  }
 
-
+	  .pic__finish {
+		width: 50%;
+		height: 480px;
+	}
 
 }
 
@@ -967,6 +1002,17 @@ main article {
 		top: -55px;
 	}
 
+	.modelo__text2{
+		font-family: Arial, sans-serif;
+		height: 100px;
+		font-weight: 700;
+		text-align: justify;
+		font-size: 1.0em;
+		width: 26%;
+		position: relative;
+		top: -55px;
+	}
+
 	.title1{
 		width: 26%;
 		
@@ -982,9 +1028,9 @@ main article {
 		padding: 0px 0px;
 	}
 
-/* ------------------------- */
-/* Pagina de Nomenclaturas */
-/* ------------------------- */
+	/* ------------------------- */
+	/* Pagina de Nomenclaturas */
+	/* ------------------------- */
 
 	.nomenclature__text{
 		background-color: #111;	
@@ -1020,11 +1066,6 @@ main article {
 
 	  .pic__finish {
 		width: 26%;
+		height: 350px;
 	}
-
-
-
 }
-
-
-

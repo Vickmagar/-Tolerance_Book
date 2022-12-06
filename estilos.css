@@ -275,15 +275,33 @@ main article {
 /* ------------------------- */
 /* Modelo 3d index */
 /* ------------------------- */
+.title1{
+	width: 86%;
+	height: 65px;
+	padding: 0px 0px;
+}
+.title1 > p{
+	font-family: Arial, sans-serif;
+	height: 65px;
+	font-weight: 900;
+	text-align: center;
+	font-size: 3em;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 0px;
+	
+}
+
 .modelo3d{
     width: 86%;
-    height: 800px;
-	*background-color: #E47911;
+    height: 700px;
+	padding: 0px 0px;
+	
 }
 
 .fig1{
     width: 90%;
-    height: 800px;
+    height: 700px;
     margin: 0 auto;
     padding: 20px 10px;
 }
@@ -293,10 +311,10 @@ main article {
 	height: 180px;
     font-weight: bold;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     width: 86%;
-	*background-color: #E47911;
-	margin-top: -25px;
+	margin-top: -40px;
+	
 }
 
 .Hotspot {
@@ -451,8 +469,8 @@ main article {
 	
 	.modelo3d{
 		width: 70%;
-		height: 600px;
-		*background-color: #E47911;
+		height: 522px;
+		
 	}
 	
 	.fig1{
@@ -469,7 +487,22 @@ main article {
 		text-align: center;
 		font-size: 2em;
 		width: 70%;
-		*background-color: #E47911;
+		
+	}
+	.title1{
+		width: 70%;
+	
+	}
+	.title1 > p{
+		font-family: Arial, sans-serif;
+		height: 65px;
+		font-weight: 900;
+		text-align: center;
+		font-size: 2em;
+		width: 100%;
+		margin: 0 auto;
+		
+		padding: 0px 0px;
 	}
 
 	/* ------------------------- */
@@ -519,8 +552,8 @@ main article {
 	
 	.modelo3d{
 		width: 60%;
-		height: 600px;
-		*background-color: #E47911;
+		height: 480px;
+	
 	}
 	
 	.fig1{
@@ -537,7 +570,23 @@ main article {
 		text-align: center;
 		font-size: 2em;
 		width: 60%;
-		*background-color: #E47911;
+		
+	}
+
+	.title1{
+		width: 60%;
+	
+	}
+	.title1 > p{
+		font-family: Arial, sans-serif;
+		height: 50px;
+		font-weight: 900;
+		text-align: center;
+		font-size: 2em;
+		width: 100%;
+		margin: 0 auto;
+		
+		padding: 0px 0px;
 	}
 
 		/* ------------------------- */
@@ -702,8 +751,8 @@ main article {
 
 	.modelo3d{
 		width: 45%;
-		height: 600px;
-		*background-color: #E47911;
+		height: 480px;
+		
 	}
 	
 	.fig1{
@@ -720,7 +769,21 @@ main article {
 		text-align: center;
 		font-size: 1.5em;
 		width: 45%;
-		*background-color: #E47911;
+		
+	}
+
+	.title1{
+		width: 45%;
+	}
+	.title1 > p{
+		font-family: Arial, sans-serif;
+		height: 50px;
+		font-weight: 900;
+		text-align: center;
+		font-size: 2em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px 0px;
 	}
 
 /* ------------------------- */
@@ -882,13 +945,13 @@ main article {
 
 	.modelo3d{
 		width: 26%;
-		height: 550px;
-		*background-color: #E47911;
+		height: 430px;
+		
 	}
 	
 	.fig1{
 		width: 85%;
-		height: 450px;
+		height: 420px;
 		margin: 0 auto;
 		padding: 20px 10px;
 	}
@@ -900,9 +963,23 @@ main article {
 		text-align: center;
 		font-size: 1.0em;
 		width: 26%;
-		*background-color: #E47911;
 		position: relative;
 		top: -55px;
+	}
+
+	.title1{
+		width: 26%;
+		
+	}
+	.title1 > p{
+		font-family: Arial, sans-serif;
+		height: 50px;
+		font-weight: 900;
+		text-align: center;
+		font-size: 1.5em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px 0px;
 	}
 
 /* ------------------------- */

@@ -110,20 +110,62 @@
 		</div>
 	</nav>
 
-	<main class="contenedor">
+	<main class="contenedor2">
 		<article class="title1">
-			<p>Side Frame 470A</p>
-		</article>
-		<article class="modelo3d">
-			<model-viewer class="fig1" camera-controls touch-action="pan-y" src="../assets/Side_Frame_470A.glb" 
-			alt="A 3d model coupler" auto-rotate min-camera-orbit="auto 0deg auto" 
-			max-camera-orbit="auto 180deg auto" exposure="0.34"> 
-			</model-viewer>
+			<p>Case 1 Negative Condition</p>
 		</article>
 
-		<article class="modelo__text">
-			<p>Select from the menu the corresponding analysis </p>
+		<article class="grid__case">
+			<section>
+				<img src="./negative_surface/Case1_NC470A1.svg" alt="" class="grid__case-picture">
+				<p class="grid__case-text">Negative Condition</p>
+			</section>
+
+			<section>
+				<img src="./negative_surface/Case1_NC470A2.svg" alt="" class="grid__case-picture">
+				<p class="grid__case-text">Negative Condition</p>
+			</section>
 		</article>
+		<article class="modelo__text">
+			<p>Analysis</p>
+		</article>
+		<article class="modelo3d">
+			<model-viewer class="fig1" camera-controls touch-action="pan-y" shadow-intensity="1" min-camera-orbit="auto 0deg 1.0m" min-field-of-view="1deg"  max-camera-orbit="auto 180deg auto" interaction-prompt="none" src="./negative_surface/CASE1_NC470ATOP.glb" 
+			alt="A 3d model coupler"> 
+			</model-viewer>
+		</article>
+		<article class="modelo__text">
+			<p>TOP View</p>
+		</article>
+		<article class="modelo3d">
+			<model-viewer class="fig1" camera-controls touch-action="pan-y" shadow-intensity="1" min-camera-orbit="auto 0deg 1.0m" min-field-of-view="1deg"  max-camera-orbit="auto 180deg auto" interaction-prompt="none" src="./negative_surface/CASE1_NC47AFRONT.glb" 
+			alt="A 3d model coupler"> 
+			</model-viewer>
+		</article>
+		<article class="modelo__text">
+			<p>FRONT View</p>
+		</article>
+		<article class="modelo__text2">
+			<p>Negative surface conditions: <br> 
+				a) Minimum metal thickness is maintained for all conditions. <br>
+				b) Zone 2 and zone 3 areas: <br>
+				i) 1/2” or less in diameter and 3/16” or less in depth—are acceptable. <br>
+				ii) Greater than 1/2” in diameter and 3/16” or less in depth  are blended. <br>
+				iii) Greater than 3/16” in depth are weld repaired. <br>
+				c) Zone 1 areas: <br>
+				i) Caulking method of repair (mechanical deformation of metal) is prohibited.<br>
+				ii) 1/2” or less in diameter and 1/8” or less in depth are acceptable provided the edges are not 
+				sharp or jagged.<br>
+				iii) Greater than 1/2” in diameter and 1/8” or less in depth are blended.<br>
+				iv) Greater than 1/8” in depth are weld repaired.<br>
+				d) Zone 0 areas: <br>
+				i) Caulking method of repair (mechanical deformation of metal) is prohibited.<br>
+				ii) 1/2” or less in diameter and 1/8” or less in depth are acceptable provided the edges are not 
+				sharp or jagged.<br>
+				iii) Greater than 1/2” in diameter and 1/8” or less in depth are blended.<br>
+				iv) Greater than 1/8” in depth weld repair pro </p>
+		</article>
+
 	</main>
 	<script src="../sideframe_470/script.js"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
